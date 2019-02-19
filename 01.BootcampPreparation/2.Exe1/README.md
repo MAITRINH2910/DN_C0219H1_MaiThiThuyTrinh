@@ -1,6 +1,6 @@
 <h1>Demonstrate Algorithm Calculate Average Mark </h1>
 <hr>
-<br>BEGIN </br>
-    &ensp<br>INPUT diemly, diemhoa, diemsinh </br>
-    &ensp<br>DISPLAY diemtrungbinh = (diemly + diemhoa + diemsinh) / 3 </br>
+BEGIN 
+    <br>&nbsp;INPUT diemly, diemhoa, diemsinh </br>
+    <br>&nbsp;DISPLAY diemtrungbinh = (diemly + diemhoa + diemsinh) / 3 </br>
 <br>END</br>  
