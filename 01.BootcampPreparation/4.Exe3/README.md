@@ -1,4 +1,4 @@
-<h1>Demonstrate Algorithm Exchange Money </h1>
+<h1>Demonstrate Algorithm The Highest Number a,b,c </h1>
 <hr>
 <br>BEGIN</br> 
     <br>&nbsp;&nbsp;&nbsp;&nbsp;INPUT a, b, c</br>
