@@ -1,5 +1,6 @@
 Demonstrate algorithm calculate average mark 
-BEGIN
+
+<br>BEGIN </br>
     INPUT diemly, diemhoa, diemsinh
     DISPLAY diemtrungbinh = (diemly+diemhoa+diemsinh)/3
 END
