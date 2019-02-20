@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exchange Money</title>
+</head>
+
+<body>
+    <form>
+        <h3>Amount </h3>
+        <input id="amount" type="text" />
+        <h3>From Currency </h3>
+        <select id="fromCurrency">
+            <option value="USD">USD</option>
+            <option value="VND">VND</option>
+        </select>
+        <h3>To Currency</h3>
+        <select id="toCurrency">
+            <option value="VND">VND</option>
+            <option value="USD">USD</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+        <button type="button" onclick="exchange();">Convert</button>
+        <script>
+            function exchange() {
+                var fromCurrency = document.getElementById("fromCurrency").value;
+                var toCurrency = document.getElementById("toCurrency").value;
+                var amount = document.getElementById("amount").value;
+                if (fromCurrency=='USD'&& toCurrency=='VND')
+                alert(23000 * amount);
+                else if (toCurrency=='USD'&& fromCurrency=='VND')
+                {
+                    alert((1/23000) * amount);
+                }
+            }
+
+        </script>
+
+</body>
+
+</html>
