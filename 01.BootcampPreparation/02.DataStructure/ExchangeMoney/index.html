@@ -31,10 +31,17 @@
                 var toCurrency = document.getElementById("toCurrency").value;
                 var amount = document.getElementById("amount").value;
                 if (fromCurrency=='USD'&& toCurrency=='VND')
-                alert(23000 * amount);
+                {
+                    alert('Result: '+23000 * amount+ toCurrency);
+                   // document.write( toCurrency);
+                   
+                }
+                
                 else if (toCurrency=='USD'&& fromCurrency=='VND')
                 {
-                    alert((1/23000) * amount);
+                    //document.write('Result: '+(1/23000) * amount);
+                    //document.write( toCurrency);
+                    alert('Result: '+(1/23000) * amount+ toCurrency);
                 }
             }
 

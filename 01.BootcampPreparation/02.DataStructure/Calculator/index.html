@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <form>
+        <h2>Calculator</h2>
+        <input id="a" type="text" />
+        <input id="b" type="text" />
+        <br>
+        <br>
+    </form>
+        <button type="button" onclick="calculatorAdd();">Addition(+)</button>
+        <button type="button" onclick="calculatorSub();">Subtraction(-)</button>
+        <button type="button" onclick="calculatorMulti();">Multiplication(*)</button>
+        <button type="button" onclick="calculatorDivi();">Division(/)</button>
+        <script>
+            
+            function calculatorAdd() {
+                var a = document.getElementById("a").value;
+                var b = document.getElementById("b").value;
+               var c = parseInt(a)+parseInt(b);
+                alert('Result Addition: '+ c);               
+            } 
+           function calculatorSub() {      
+                var a = document.getElementById("a").value;
+                var b = document.getElementById("b").value;          
+                alert('Result Subtraction: '+ (a-b));               
+            } 
+            function calculatorMulti() {
+                var a = document.getElementById("a").value;
+                var b = document.getElementById("b").value;
+                alert('Result Multiplication: '+ (a*b));               
+            } 
+            function calculatorDivi() {
+                var a = document.getElementById("a").value;
+                var b = document.getElementById("b").value;
+                alert('Result Division: '+ (a/b));               
+            } 
+
+        </script>
+
+</body>
+
+</html>
