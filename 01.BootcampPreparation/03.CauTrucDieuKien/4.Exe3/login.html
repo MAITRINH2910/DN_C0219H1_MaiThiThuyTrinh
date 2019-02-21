@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+    var username = prompt("Enter your name: ");
+    if (username == 'Admin')
+    {
+        var pass = prompt("Enter your password: ");
+        if (pass == 'TheMaster')
+        {
+            alert("Welcome");
+        }
+        else if (pass == null)
+        {
+            alert("Cancel");
+        }
+        else 
+        {
+            alert("Wrong password!");
+        }
+    }
+    else if (username == null)
+    {
+        alert("Cancel");
+    }
+    esle 
+    {
+        alert("I dont know you. HEHE");
+    }
+    </script>
+
+</body>
+</html>

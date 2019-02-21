@@ -14,11 +14,13 @@
         <select id="fromCurrency">
             <option value="USD">USD</option>
             <option value="VND">VND</option>
+            <option value="YEN">JPY</option>
         </select>
         <h3>To Currency</h3>
         <select id="toCurrency">
             <option value="VND">VND</option>
             <option value="USD">USD</option>
+            <option value="YEN">JPY</option>
         </select>
 
         <br>
@@ -29,10 +31,45 @@
             function exchange() {
                 var fromCurrency = document.getElementById("fromCurrency").value;
                 var toCurrency = document.getElementById("toCurrency").value;
-                var amount = document.getElementById("amount").value;
+                var b = document.getElementById("amount").value;
+                switch (fromCurrency)
+                {
+                    case 'USD':
+                    switch(toCurrency)
+                    {
+                         case 'USD':  alert('Result: '+b+ toCurrency);
+                         break;
+                         case 'VND':  alert('Result: '+23000 * b+ toCurrency);
+                          break;
+                         case 'JPY':  alert('Result: '+111 * b+ toCurrency);
+                         break;
+                    } 
+                    break;
+                    case 'VND':
+                    switch(toCurrency)
+                    {
+                         case 'USD':  alert('Result: '+(1/23000) * b+ toCurrency);
+                         break;
+                         case 'VND':  alert('Result: '+b+ toCurrency);
+                          break;
+                         case 'JPY':  alert('Result: '+111 * b+ toCurrency);
+                         break;
+                    } 
+                    case 'JPY':
+                    switch(toCurrency)
+                    {
+                         case 'USD':  alert('Result: '+0.00903 * b+ toCurrency);
+                         break;
+                         case 'VND':  alert('Result: '+207 * b+ toCurrency);
+                          break;
+                         case 'JPY':  alert('Result: '+b+ toCurrency);
+                         break;
+                    } 
+                }
+               /*
                 if (fromCurrency=='USD'&& toCurrency=='VND')
                 {
-                    alert('Result: '+23000 * amount+ toCurrency);
+                    alert('Result: '+23000 * b+ toCurrency);
                    // document.write( toCurrency);
                    
                 }
@@ -41,8 +78,8 @@
                 {
                     //document.write('Result: '+(1/23000) * amount);
                     //document.write( toCurrency);
-                    alert('Result: '+(1/23000) * amount+ toCurrency);
-                }
+                    alert('Result: '+(1/23000) * b+ toCurrency);
+                }*/
             }
 
         </script>
