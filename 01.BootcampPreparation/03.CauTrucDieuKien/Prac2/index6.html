@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Hệ số a</title>
+<script>
+function pt()
+{
+var a,b,x;
+a = document.nhap.a.value;
+b = document.nhap.b.value;
+if (a==0 && b==0)
+{
+document.write("Phuong trinh co vo so nghiem");
+}
+else if(a==0 && b!==0)
+{
+document.write("Phuong trinh vo nghiem");
+}
+else if(a!=0 && b!=0)
+{
+x= -b/a;
+document.nhap.c.value =x;
+}
+}
+</script>
+</head>
+<body>
+<form name="nhap">
+he so a:
+<input type="text" name="a">
+<p>he so b:
+<input type="text" name="b">
+</p>
+<p>ket qua:
+<label>
+<input type="text" name="c">
+</label>
+</p>
+<p>
+<input type="button" value="giai" onClick="pt()">
+</p>
+</form>
+</body>
+</html>
