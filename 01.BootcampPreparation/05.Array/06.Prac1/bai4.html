@@ -1,0 +1,37 @@
+<html>
+
+<body>
+    <input id="text" type="text">
+    <button id="btnAdd" type="button" onclick="Add();">Add</button>
+    <button id="btnDisplay" type="button" onclick="Display();">Display</button>
+    <button id="btnReverse" type="button" onclick="Reverse();">Reverse</button>
+    <div id="result"></div>
+    <script>
+        /*
+        Bài 4- Viết chương trình khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.
+        */
+        let x = 0;
+        let array = [];
+        function Add() {
+            array[x] = document.getElementById("text").value;
+            //alert("Element: " + array[x] + " Added at index " + x);
+            x++;
+            document.getElementById("text").value = "";
+        }
+
+        function Display() {
+            let e = "<hr/>";
+            for (let i = 0; i < array.length; i++) {
+                e += "Element " + i + " = " + array[i] + "<br/>";
+            }
+            document.getElementById("result").innerHTML = e;
+        }
+        function Reverse() {
+            array.reverse();
+            Display();
+
+        }
+    </script>
+</body>
+
+</html>

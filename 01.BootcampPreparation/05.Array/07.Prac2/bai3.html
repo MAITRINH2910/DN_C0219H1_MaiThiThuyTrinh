@@ -1,0 +1,15 @@
+<script>
+    /*
+    Bài 3: Viết một chương trình khai báo một mảng ký tự và kích thước của mảng.
+    Chương trình này đếm số ký tự số trong mảng. 
+    */
+    var arr = [3, 5, 6, 'a', '7'];
+    var count = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (typeof arr[i] === 'number') {
+            count++;
+        }
+    }
+    document.write("Number in array is: " + count);
+</script>

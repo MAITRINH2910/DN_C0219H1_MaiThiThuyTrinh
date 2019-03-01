@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <title>MTN</title>
+</head>
+<body>
+    <h2>JavaScript Loops</h2>
+    <p id="demo"></p>
+    <script>
+    
+    let sout;
+    sout = "<table border='10' width='300' cellspacing='0' cellpadding='10'>"
+    
+    for (i = 1; i <= 10; i++) {
+       sout = sout + "<tr>";
+       
+        for (j = 2; j <= 9; j++) {
+            sout = sout + "<td>" + j+"*"+i+"="+i * j + "</td>";
+        }
+        sout = sout + "</tr>";
+    }
+    sout = sout + "</table>";
+    document.write(sout);
+   
+    </script>
+</body>
+</html>

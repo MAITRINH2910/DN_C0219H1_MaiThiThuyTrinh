@@ -1,0 +1,28 @@
+<p id="demo"></p>
+<script>
+    /*
+    Bài 7- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V.
+    Chương trình kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc mảng đã cho xoá V khỏi mảng 
+    (Bản chất việc xoá ở đây tức là dịch phần tử ở bên phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng)
+    */
+    var arr = new Array(10); 
+    for (let i=0; i<arr.length; i++)
+    {
+        var x = parseInt(prompt("Nhập vào giá trị thứ [" + i + "]="));
+        arr[i]=x;
+    }
+    alert("Mảng được tạo: "+arr);
+    //document.getElementById("demo").innerHTML = arr;
+    
+   
+    var n = parseInt(prompt("Nhập vào 1 số bất kì: "));
+    document.write("Bạn chọn số "+n+"<br>");
+    for (let i=0; i<arr.length; i++)
+    {
+        if (arr[i]==n)
+        {
+            arr.splice(i,1);
+        }
+    }
+    document.write("Mảng sau khi xóa: "+arr);
+</script>

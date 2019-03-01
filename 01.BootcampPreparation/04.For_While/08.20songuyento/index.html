@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MTN</title>
+</head>
+
+<body>
+    <h2>20 Số nguyên tố đầu tiên là: </h2>
+    <script>
+        var a = 0; var count = 0;
+        var checkNumber=2;
+        while (count < 20) {
+            for (var j = 1; j <= checkNumber; j++) {
+                if (checkNumber % j == 0) {
+                    a += 1;
+                }
+            }
+            if (a == 2) {
+                document.write(checkNumber + "<br>");
+                count++;
+            }
+            checkNumber++;
+            a = 0;
+        }
+
+    </script>
+</body>
+
+</html>

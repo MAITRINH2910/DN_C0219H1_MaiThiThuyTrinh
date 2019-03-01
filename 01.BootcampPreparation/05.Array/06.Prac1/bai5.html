@@ -1,0 +1,19 @@
+<script>
+    /*
+    Bài 5- Viết chương trình đếm số nguyên âm trong một chuỗi
+    */
+    var number = parseInt(prompt("Bạn muốn nhập bao nhiêu phần tử vào mảng?"));
+    var arr = [];
+    for (var i = 0; i < number; i++) {
+        var x = prompt("Nhập giá trị vào mảng");
+        arr.push(x);
+    }
+    document.write(arr);
+    var count = 0;
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[j] < 0) {
+            count++;
+        }
+    }
+    alert("Chuỗi này có " + count + " số nguyên âm");
+</script>

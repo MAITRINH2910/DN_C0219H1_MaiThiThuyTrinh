@@ -1,0 +1,18 @@
+<script>
+    /*
+    Bài 2- Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử khác nhau.
+    Chương trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó.
+    */
+    var a = [10, 12, 16, 52, 189, 236, 125, 142, 23, 86];
+    var Max = a[0];
+    var index;
+    for (var i = 0; i < a.length; i++) {
+        if (a[i] >= Max) {
+            Max = a[i];
+            index = i;
+        }
+    }
+
+    alert("Phần tử có giá trị lớn nhất " + Max);
+    alert("Vị trí của phần tử đó trong mảng: " + index);
+</script>

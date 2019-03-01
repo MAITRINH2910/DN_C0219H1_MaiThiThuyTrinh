@@ -1,0 +1,15 @@
+<script>
+    var money = prompt("Nhập số tiền ban đầu:  ");
+    var count = prompt("Nhập số tháng cho vay: ");
+    var rate = prompt("Nhập lãi suất hàng tháng: ");
+
+    var sum=money;
+    
+    for (var i=1; i<=count;i++)
+    {
+        sum = parseInt(sum)+parseInt(money*rate);
+        money = sum;
+        
+    }
+    document.write("Số tiền lãi ngân hàng trong "+count+ " tháng là: "+sum );
+</script>

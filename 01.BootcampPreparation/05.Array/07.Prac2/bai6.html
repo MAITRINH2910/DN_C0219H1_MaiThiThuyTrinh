@@ -1,0 +1,14 @@
+<script>
+    /*
+    Bài 6: Viết chương trình nhập vào một mảng ký tự
+        Tìm tất cả các ký tự trong mảng là (-) và thay thế các ký tự này bởi ký tự ( _ )
+    */
+    var arr = ['a', 'c', '-', 'd', 'e', '-'];
+    document.write("Mảng kí tự ban đầu: " + arr + "<br>");
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i]=== '-') {
+            arr[i] = '_';
+        }
+    }
+    document.write("Mảng kí tự sau khi thay thế: " + arr.join(""));
+</script>

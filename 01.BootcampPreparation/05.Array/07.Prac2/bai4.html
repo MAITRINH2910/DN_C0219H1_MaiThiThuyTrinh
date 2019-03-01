@@ -1,0 +1,18 @@
+<script>
+    /*
+    Bài 4: Viết một chương trình để đếm số từ trong một chuỗi
+    */
+    var arr = prompt("Nhập vào một chuỗi bất kì:");
+    var tostring = arr.split("");
+    var count = 0;
+    if (tostring[0] != " ") {
+        count++;
+    }
+    for (let i = 0; i < tostring.length; i++) {
+        if (tostring[i] == " " && tostring[i + 1] != " " && tostring[i + 1] != null) {
+            count++;
+        }
+    }
+    document.write(arr);
+    document.write("<br>Chuỗi có: " + count + " từ");
+</script>

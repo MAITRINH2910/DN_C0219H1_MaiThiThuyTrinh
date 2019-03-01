@@ -1,0 +1,19 @@
+<script>
+    /*
+    Bài 3- Viết chương trình khởi tạo mảng số nguyên.
+        Hiển hiện giá trị lớn nhất trong mảng đó. In ra giá trị trung bình của các phần tử trong mảng.
+    */
+    var a = [10, 12, 16, 52, 189, 236, 125, 142, 23, 86];
+    var Max = a[0]; var ave; var sum = 0;
+    var index;
+    for (var i = 0; i < a.length; i++) {
+        if (a[i] >= Max) {
+            Max = a[i];
+
+        }
+        sum = sum + a[i];
+    }
+    ave = sum / (a.length);
+    alert("Phần tử có giá trị lớn nhất " + Max);
+    alert("Giá trị trung bình các phần tử trong mảng: " + ave);
+</script>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>20 số trong dãy fibonacci</h2>
+    <script>
+        var a0 = 0; var a1 = 1; var a2;
+        var count = 0;
+        let i;
+        for (i = 1; i < 50; i++) {
+            document.write(a0 + "<br/>");
+            count++;
+            a2 = a0 + a1;
+            a0 = a1;
+            a1 = a2;
+            if (count == 20) {
+                break;
+            }
+        }
+    </script>
+</body>
+</html>

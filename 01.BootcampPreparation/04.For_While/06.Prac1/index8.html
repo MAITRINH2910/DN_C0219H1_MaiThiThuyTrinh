@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MTN</title>
+</head>
+
+<body>
+    <h2>Game: Hãy đoán thử xem</h2>
+    <button type="button" onclick="Play()">Chơi</button>
+    <p id="demo1"></p>
+    <script>
+        function Play() {
+            var min = parseInt(prompt("Bạn muốn đoán trong khoảng nào? Từ"));
+            var max = parseInt(prompt("Đến"));
+            function random(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+            var number = random(min, max);
+            var count = 0;
+            do {
+
+                var c = parseInt(prompt("Xin mời nhập giá trị bạn đoán"));
+                count++;
+                if (c == number) {
+                    alert("Chúc mừng bạn");
+                    break;
+                }
+                else if (c < number) {
+                    alert("Số bạn chọn bé hơn!");
+                }
+                else if (c > number) {
+                    alert("Số bạn chọn lớn hơn!");
+                }
+                if (count == 3) {
+                    alert("Bạn đã hết lượt đoán!");
+                    break;
+                }
+            } while (c < number || c > number);
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<script>
+    /*
+    Bài 8- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử. 
+    Chương trình sắp xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp.
+    */
+    var arr = new Array(10);
+    for (let i = 0; i < arr.length; i++) {
+        var x = parseInt(prompt("Nhập vào giá trị thứ [" + i + "]="));
+        arr[i] = x;
+    }
+    document.writeln("Mảng ban đầu: " + arr + "<br>");
+    var temp;
+    for (let j = 0; j < arr.length - 1; j++) {
+        for (let i = j; i < arr.length; i++) {
+            if (arr[j] <= arr[i]) {
+                temp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp;
+            }
+        }
+    }
+    document.write("Mảng theo thứ tự giảm dần: " + arr);
+</script>
