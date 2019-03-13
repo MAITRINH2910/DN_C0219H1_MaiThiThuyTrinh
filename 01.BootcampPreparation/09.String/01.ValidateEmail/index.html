@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Viết phương thức để kiểm tra tính hợp lệ của mail
+    Một email hợp lệ cần đạt các yêu cầu sau:
+
+    Bắt đầu bằng một ký tự
+    Không chứa các ký tự đặc biệt
+    Có một ký tự @ ngăn cách tên email và domain
+    Domain phải hợp lệ
+
+    B1: Tạo email pattern:  Email Regular Expression Pattern
+    ^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)$;
+    -->
+    <script>
+        function isValidEmail(str) {
+            regexp = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+            //regexp = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+            ///[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/
+            if (regexp.test(str)) {
+                return true;
+            } else {
+                return false;
+            }
+
+        }
+
+        var str1 = "@#abc@gmail.com";
+        console.log(isValidEmail(str1));
+        str1 = "maitrinhdnc@gmail.com"
+        console.log(isValidEmail(str1));
+
+    </script>
+</body>
+
+</html>

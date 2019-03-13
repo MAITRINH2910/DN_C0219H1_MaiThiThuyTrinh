@@ -1,0 +1,20 @@
+<script>
+    let Temparature = function (celcius) {
+        this.celcius = celcius;
+        this.getCelcius = function () {
+            return celcius;
+        }
+        this.changeF = function () {
+            return (celcius * 9 / 5) + 32;
+        }
+        this.changeK= function()
+        {
+            return celcius+273.15;
+        }
+    }
+    var temparature = new Temparature(25);
+    var changeF = temparature.changeF();
+    var changeK = temparature.changeK();
+    alert("25 độ C tương đương: "+changeF+" độ F và "+changeK+" độ K");
+
+</script>

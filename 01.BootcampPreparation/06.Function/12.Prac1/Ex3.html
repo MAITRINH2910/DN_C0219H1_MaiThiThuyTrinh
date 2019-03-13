@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--Bài 3: Tạo hàm nhận vào hai tham số.
+         Nếu giá trị của tham số thứ nhất lớn hơn tham số thứ hai, hiển thị hộp thoại thông báo cho người dùng. 
+        Nếu giá trị của tham số thứ nhất nhỏ hơn hoặc bằng tham số thứ hai, trả về tổng của hai tham số.-->
+
+    <script>
+        var num1 = parseInt(prompt("Nhập vào giá trị của số thứ nhất: "));
+        var num2 = parseInt(prompt("Nhập vào giá trị của số thứ hai: "));
+
+        function compareNumber(numa, numb){
+            if (numa>numb){
+                alert("Giá trị số thứ nhất lớn hơn giá trị số thứ hai");
+
+            } else {
+                var numa= parseInt(numa);
+                var numb= parseInt(numb);
+                alert("Tổng của hai số này là: "+(numa+numb));
+            }
+        }
+        
+    compareNumber(num1, num2);
+    </script>
+</body>
+</html>

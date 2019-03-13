@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1>Temparature Converter</h1>
+    <p> Type a value in the Fahrenheit field to convert the value to Celcius:</p>
+    Fahrenheit <input type="number" id="input" oninput="convert(this.value)"
+        onchange="convert(this.value)"></input>
+    <p>Celsius: <span id="outputCelsius"></span></p>
+    <script>
+        /*
+        Xây dựng hàm để chuyển đổi từ độ F cho trước sang độ C theo công thức sau: C = (F - 32)/1.8. 
+        */
+        function convert(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8;
+        }
+    </script>
+
+</body>
+
+</html>

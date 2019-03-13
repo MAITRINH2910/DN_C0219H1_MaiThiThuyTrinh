@@ -1,0 +1,29 @@
+<script>
+
+
+var number = prompt("nhap so luong so nguyen to: ");
+
+var primes = [];
+var checkNumber = 2;
+while (primes.length < number) {
+  var isPrimeNumber = isPrime(checkNumber);
+  if (isPrimeNumber) {
+    primes.push(checkNumber);
+  } 
+  checkNumber++;
+  
+}//end while 
+ alert("result: " + primes);
+function isPrime(number){
+  var isPrime = true;
+  for(var i = 2;i<=Math.sqrt(checkNumber);i++){
+    if(checkNumber%i == 0 ){
+      isPrime = false;
+      break;
+    }
+    
+  }//end for
+  return isPrime;
+}
+
+</script>

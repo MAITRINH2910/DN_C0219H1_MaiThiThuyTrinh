@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Tên một lớp học hợp lệ cần đạt các yêu cầu sau:
+
+Bắt đầu bằng một ký tự chữ hoa C hoặc A hoặc P
+
+Không chứa các ký tự đặc biệt
+
+Theo sau ký tự bắt đầu là 4 ký tự số 
+
+Kết thúc phải là 1 trong những ký tự chữ hoa sau: G, H, I, K, L, M-->
+    <script>
+
+        function checkClassName(name) {
+            regexp = /^([C]|[P]|[A]){1}+[0-9]{4}+([G]|[H]|[I][K]|[L]|[M]){1}$/;
+
+            if (regexp.test(name)) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        var name = prompt("Enter your class name: ");
+        alert(checkClassName(name));
+    </script>
+</body>
+
+</html>

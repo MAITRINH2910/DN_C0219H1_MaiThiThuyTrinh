@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cat catch rat</title>
+</head>
+
+<body>
+    <script>
+
+        var Rat = function (name, weight, speed, status) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+            this.status = status;
+
+            this.call = function () {
+                console.log("Chít Chít");
+            }
+            this.getSpeed = function () {
+                return this.speed;
+            }
+        }
+
+        var Cat = function (name, weight, maxSpeed) {
+            this.name = name;
+            this.weight = weight;
+            this.maxSpeed = maxSpeed;
+            this.rat = null;
+
+            this.call = function () {
+                console.log("Meow Meow");
+            };
+
+            this.connectRat = function (rat) {
+                this.rat = rat;
+            }
+            this.catchRat = function () {
+
+                if (this.maxSpeed > this.rat.getSpeed()) {
+                    console.log(this.name + " catched " + this.rat.name);
+                    this.rat.call();
+                    console.log(this.name + " prepare eat " + this.rat.name);
+                }
+                else {
+                    console.log(this.name + " cannot catch " + this.rat.name);
+                }
+            }
+            this.eatRat = function () {
+                if (this.rat.status == true && this.maxSpeed > this.rat.getSpeed()) {
+                    console.log("Weight of " + this.name + " before eat " + this.rat.name + " is: " + this.weight);
+                    this.weight += this.rat.weight;
+                    console.log("Weight of " + this.name + " before eat " + this.rat.name + " is: " + this.weight);
+                } else if (this.rat.status == false) {
+                    console.log(this.rat.name + "already died! " + this.name + " cannot eat");
+                } else if (this.maxSpeed <= this.rat.getSpeed()) {
+                    console.log(this.rat.name + " run so fast. Ahihi " + this.name + " cannot eat");
+                }
+            }
+        }
+
+        var rat1 = new Rat("Jerry", 5, 30, true);
+        var rat2 = new Rat("Alexa", 4, 60, true);
+        var rat3 = new Rat("Amazon", 4, 20, false);
+        var cat1 = new Cat("Tom", 7, 50);
+        rat1.call();
+        cat1.call();
+        cat1.connectRat(rat1);
+        cat1.catchRat();
+        cat1.eatRat();
+        console.log("");
+        rat2.call();
+        cat1.call();
+        cat1.connectRat(rat2);
+        cat1.catchRat();
+        cat1.eatRat();
+
+    </script>
+</body>
+
+</html>

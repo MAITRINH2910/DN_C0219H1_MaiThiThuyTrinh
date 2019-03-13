@@ -2,8 +2,8 @@
     /*
     Bài 4: Viết một chương trình để đếm số từ trong một chuỗi
     */
-    var arr = prompt("Nhập vào một chuỗi bất kì:");
-    var tostring = arr.split("");
+    var string = prompt("Nhập vào một chuỗi bất kì:");
+    var tostring = string.split("");
     var count = 0;
     if (tostring[0] != " ") {
         count++;
@@ -13,6 +13,6 @@
             count++;
         }
     }
-    document.write(arr);
+    document.write(string);
     document.write("<br>Chuỗi có: " + count + " từ");
 </script>

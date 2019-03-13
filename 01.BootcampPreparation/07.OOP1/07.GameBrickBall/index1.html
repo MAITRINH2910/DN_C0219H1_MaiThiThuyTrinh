@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game Ball Brick</title>
+    <style>
+        canvas {
+            border: 2px solid #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="game" width="500" height="500"></canvas>
+    <script>
+        var canvas = document.getElementById('game');
+        var ctx = canvas.getContext('2d');
+
+        var ball = {
+            x: 20,
+            y: 20,
+            dx: 5,
+            dy: 2,
+            radius: 10,
+        }
+        var paddle = {
+            width: 70,
+            height: 10,
+            x: 0,
+            y: canvas.height - 10,
+            speed: 10,
+
+            isMovingLeft: false,
+            isMovingRight: false,
+        }
+        var isGameOver = false;
+
+        var BrickConfig = {
+            offsetX: 25,
+            offsetY: 25,
+            margin: 25,
+            width: 40,
+            height: 15,
+            totalRow: 3,
+            totalCol: 7
+        };
+
+        var isGameWin = false;
+        var userScore = 0;
+        var MaxScore = BrickConfig.totalCol * BrickConfig.totalRow;
+
+        var BrickList = [];
+        for (var i = 0; i < BrickConfig.totalRow; i++) {
+            for (var j = 0; j < BrickConfig.totalCol; j++) {
+                BrickList.push({
+                    x: BrickConfig.offsetX + j * (BrickConfig.width + BrickConfig.margin),
+                    y: BrickConfig.offsetY + i * (BrickConfig.height + BrickConfig.margin),
+                    isBroken: false
+                }
+
+                );
+            }
+        }
+
+        document.addEventListener('keyup', function (event) {
+            console.log('KEY UP');
+            console.log(event);
+            if (event.keyCode == 37) {
+                paddle.isMovingLeft = false;
+            } else if (event.keyCode == 39) {
+                paddle.isMovingRight = false;
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            console.log('KEY DOWN');
+            console.log(event);
+            if (event.keyCode == 37) {
+                paddle.isMovingLeft = true;
+            } else if (event.keyCode == 39) {
+                paddle.isMovingRight = true;
+            }
+        });
+        function drawBall() {
+            ctx.beginPath();
+            ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+            ctx.fillStyle = "purple";
+            ctx.fill();
+            ctx.closePath();
+        }
+        function drawPaddle() {
+            ctx.beginPath();
+            ctx.rect(paddle.x, paddle.y, paddle.width, paddle.height);
+            ctx.fill();
+            ctx.closePath();
+        }
+        /*
+           OFFSET: Cân đối lề bên trái và bên phải màn hình
+           OFFSET*2+5*width+4*margin=500
+           Đặt offset=25margin
+           margin là khoảng cách giữa các viên gạch
+           width=70
+       */
+        function drawBrick() {
+            BrickList.forEach(function (b) {
+                if (!b.isBroken) {
+                    /*nếu bóng chưa vỡ sẽ vẽ*/
+                    ctx.beginPath();
+                    ctx.rect(b.x, b.y, BrickConfig.width, BrickConfig.height);
+                    ctx.fill();
+                   
+                    ctx.closePath();
+                }
+            });
+
+        }
+        function handleBallTouchBounds() {
+            if (ball.x < ball.radius || ball.x > canvas.width - ball.radius) {
+                ball.dx = -ball.dx;
+            }
+            if (ball.y < ball.radius) {
+                ball.dy = -ball.dy;
+            }
+        }
+        function updateBallPosition() {
+            ball.x += ball.dx;
+            ball.y += ball.dy;
+        }
+        function handleBallTouchPaddle() {
+            if (ball.x + ball.radius >= paddle.x && ball.x + ball.radius <= paddle.x + paddle.width
+             && ball.y + ball.radius >= canvas.height - paddle.height) {
+                ball.dy = -ball.dy;
+            }
+        }
+
+        function handleBallTouchBrick() {
+            BrickList.forEach(function (b) {
+                if (!b.isBroken) {
+                    if (ball.x >= b.x && ball.x <= b.x + BrickConfig.width &&
+                        ball.y + ball.radius >= b.y && ball.y - ball.radius <= b.y + BrickConfig.height) {
+                        ball.dy = -ball.dy;
+                        b.isBroken = true;
+                        userScore += 1;
+                        if (userScore >= MaxScore) {
+                            isGameOver = true;
+                            isGameWin = true;
+                        }
+                    }
+                }
+            });
+        }
+
+        function updatePaddlePositon() {
+            if (paddle.isMovingLeft) {
+                paddle.x -= paddle.speed;
+            }
+            else if (paddle.isMovingRight) {
+                paddle.x += paddle.speed;
+            }
+
+            if (paddle.x < 0) {
+                paddle.x = 0;
+            }
+            else if (paddle.x > canvas.width - paddle.width) {
+                paddle.x = canvas.width - paddle.width;
+            }
+        }
+        function checkGameOver() {
+            if (ball.y > canvas.height - ball.radius) {
+                isGameOver = true; //đánh cờ
+            }
+        }
+        function handleGame() {
+            if (isGameWin) {
+                alert('You win');
+            }
+            else if (isGameOver)
+            { 
+                alert('You lose');
+            }
+        }
+
+        function draw() {
+            if (!isGameOver) {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                drawBall();
+                drawPaddle();
+                drawBrick();
+
+                handleBallTouchBounds();
+                handleBallTouchPaddle()
+                handleBallTouchBrick();
+                updateBallPosition();
+                updatePaddlePositon();
+
+                checkGameOver();
+
+                requestAnimationFrame(draw);//làm chuyển động mịn hơn
+            } else {
+                handleGame();
+
+            }
+        }
+
+
+        draw();
+
+
+    </script>
+
+
+</body>
+
+</html>

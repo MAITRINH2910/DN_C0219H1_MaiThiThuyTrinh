@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Tính số thời gian mà bạn đã sống dưới nhiều đơn vị khác nhau.-->
+    <script>
+
+        var birthDay = new Date("October 29, 1997 06:00:00");
+
+        var toDay = new Date();
+        //time difference
+        var timeDiff = Math.abs(toDay.getTime() - birthDay.getTime()); // in miliseconds
+
+        var year = Math.ceil(timeDiff / (1000 * 60 * 60 * 24 * 365));
+        var month = Math.ceil(timeDiff / (1000 * 3600 * 24 * 31));
+        var day = Math.ceil(timeDiff / (1000 * 3600 * 24));
+
+        var hour = Math.ceil(timeDiff / (1000 * 60 * 60));
+        var minute = Math.ceil(timeDiff / (1000 * 60));
+        var second = Math.ceil(timeDiff / 1000);
+
+        console.log("Tôi đã sống được " + year + " năm rồi!");
+        console.log("Tôi đã sống được " + month + " tháng rồi!");
+        console.log("Tôi đã sống được " + day + " ngày rồi!");
+        console.log("Tôi đã sống được " + hour + " giờ rồi!");
+        console.log("Tôi đã sống được " + minute + " phút rồi!");
+        console.log("Tôi đã sống được " + second + " giây rồi!");
+
+    </script>
+
+</body>
+
+</html>

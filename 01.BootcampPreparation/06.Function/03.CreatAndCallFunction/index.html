@@ -1,0 +1,26 @@
+<script>
+    /*
+    Mục tiêu
+    Luyện tập định nghĩa hàm và gọi hàm.
+
+    Mô tả
+    Sử dụng hàm "confirm" để nhận thông tin đầu vào và đưa ra quyết định dựa trên những thông tin đó.
+    */
+   function processConfirm(answer)
+   {
+       let result ="";
+        if (answer)
+        {
+            result = "Great. We'll play the chess";
+        }
+        else 
+        {
+            result = "Maybe later";
+        }
+        return result
+   }
+
+   let confirmAnswer = confirm("Shall we play a game?");
+   let theAnswer = processConfirm(confirmAnswer);
+   alert (theAnswer);
+</script>

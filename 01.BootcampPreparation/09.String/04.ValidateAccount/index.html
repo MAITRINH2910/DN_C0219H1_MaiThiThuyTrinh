@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validate Account</title>
+</head>
+<body>
+    
+    <script>
+    function checkAcount(acc){
+        regexp= /^[_a-z0-9]{6,}$/;
+        if (regexp.test(acc)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+   
+    var acc = prompt("Nhập tài khoản: ");
+    alert(checkAcount(acc));
+    </script>
+</body>
+</html>

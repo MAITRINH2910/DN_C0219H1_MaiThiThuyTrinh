@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Cho một danh sách các số điện thoại thuộc các nhà mạng khác nhau. 
+        Hãy tìm các số điện thoại thuộc nhà mạng Viettel.-->
+    <script>
+
+        var arr = ["0905603757", "0326505054", "0706075545", "0913826351", "0356212345"];
+        document.write("Các số điện thoại thuộc nhà mạng Viettel là: <br>");
+        var regexp = /^[0]+[3]+[2-9]{1}[0-9]{7}$/;
+        for (var i = 0; i < arr.length; i++) {           
+            if (regexp.test(arr[i])) {
+                document.write(arr[i] + "<br>");
+            }
+        }    
+    </script>
+</body>
+
+</html>

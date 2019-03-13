@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+input [type=button]{
+    background: lightgray;
+    width:20%;
+    font-size: 20px;
+    font-weight: 900;
+    margin:2%;
+}
+.textview {
+    width: 200;
+    margin: 5;
+    font-size: 25;
+    padding: 5px;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Exercise 4</title>
+</head>
+
+<body>
+   
+    <script>
+        //Bài 4: Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không.
+        // Nếu là ký tự số hàm trả về true, ngược lại trả về false.    
+
+        function checkNumber(character) {
+            
+            if (character >="0" && character<="9"){
+                alert(true);
+            } else {
+                alert(false);
+            }
+        }
+
+       var character = (prompt("Enter any character"));
+      
+        checkNumber(character);
+       
+    </script>
+</body>
+
+</html>

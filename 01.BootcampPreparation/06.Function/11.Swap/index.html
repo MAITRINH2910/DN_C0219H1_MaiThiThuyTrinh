@@ -1,0 +1,16 @@
+<script>
+    function MyNumber(number) {
+        this.number = number;
+    }
+    let a = new MyNumber(5);
+    let b = new MyNumber(10);
+
+    function swap(a, b) {
+        let temp = a.number;
+        a.number = b.number;
+        b.number = temp;
+    }
+
+    swap(a, b);
+    document.write("a = " + a.number + ", b = " + b.number);
+</script>

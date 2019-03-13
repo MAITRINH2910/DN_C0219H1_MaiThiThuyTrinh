@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+        <canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;">
+    <script>
+        // Vẽ hình tròn với bán kính ngẫu nhiên
+
+
+        /*var canvas = document.getElementById('MyCanvas');
+        canvas.width = document.innerWidth;
+        canvas.height = document.innerHeight;
+        */
+        function Circle(x,y,radius)
+        {
+            this.x=x;
+            this.y= y;
+            this.radius=radius;
+        }
+        function createCircle()
+        {
+            var ctx= document.getElementById("myCanvas").getContext("2d");
+            var radius = Math.floor(Math.random()*100+20);
+            var circle = new Circle(500, 500, radius);
+            ctx.beginPath();
+            ctx.arc(circle.x, circle.y, circle.radius,0,2*Math.PI);
+            ctx.fill();
+            alert(radius);
+        }
+        createCircle();
+    </script>
+</body>
+
+
+</html>

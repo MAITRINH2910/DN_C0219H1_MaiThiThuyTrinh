@@ -1,0 +1,26 @@
+<script>
+    var word = prompt("Enter any word to check: ");
+    isPalindrome(word);
+    function isPalindrome(word) {
+        var isPalindrome = true;
+        var wordToString = word.split("");      
+    
+        for (let i=0; i < wordToString.length; i++)
+        {
+            if (wordToString[i]!==wordToString[wordToString.length-1-i])
+                {
+                    isPalindrome=false;
+                    break;
+                }
+          
+        }
+        if (isPalindrome) {
+            alert("This is a palindrome word");
+        }
+        else {
+            alert("This is not a palindrome word");
+        }
+    }
+
+
+</script>

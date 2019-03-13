@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Bước 1: Cho sẵn chuỗi như sau: "Tôi yêu ngôn ngữ lập trình Javascript".
+
+    Hãy đếm số lần xuất hiện của chữ 'a' ở trong chuỗi trên.
+
+    Bước 2: Tách chuỗi
+
+    Hãy tách chuỗi trên vào trong một mảng các chuỗi. Mỗi từ là một phần từ.
+
+    Bước 3: Đếm số lượng từ có trong chuỗi trên.
+
+    Bước 4: Hãy thay thế chữ 'Javascript' bằng chữ 'Typescript'-->
+    <script>
+
+        var string = "Tôi yêu ngôn ngữ lập trình Javascript";
+        document.write("Kí tự a xuất hiện " + string.match(/a/gi).length + " lần trong chuỗi");
+        /*
+        Chữ "g" nói để tìm TẤT CẢ các lần xuất hiện của ký tự "a". 
+        Nếu không nó sẽ chỉ tìm thấy cái đầu tiên, và nó sẽ không bao giờ đếm qua số một.
+        Lá cờ thứ hai là "i". Nó làm cho RegEx khớp với tất cả các trường hợp của ký tự đó.
+        Nếu lá cờ đó (i) không có ở đó, mã ở trên sẽ chỉ đếm 4, vì nó sẽ bỏ qua chữ hoa "A" trong chuỗi.
+        Vì "i", nó sẽ khớp với phần trên và chữ thường. 
+        Xóa "i" nếu bạn muốn khớp với chữ hoa.
+        */
+        var changeStr = string.replace("Javascript", "Typescript");
+        document.write("<br>Câu sau khi đổi: " + changeStr);
+
+        //Tách chuỗi
+        var arr = [];
+        var toString = string.split("");
+        if (toString[0] != " ") {
+            arr.push(toString);
+        }
+        for (let i = 0; i < toString.length; i++) {
+            if (toString[i] == " " && toString[i + 1] != " " && toString[i + 1] != null) {
+                arr.push(toString);
+               
+            }
+            
+        }        
+
+        //Đếm số lượng từ có trong chuỗi       
+        var count = 0;
+
+        for (let i = 0; i < arr.length; i++) {
+            count++;
+        }
+        document.write("<br>" + string);
+        document.write("<br>Chuỗi có: " + count + " từ");
+    </script>
+</body>
+
+</html>

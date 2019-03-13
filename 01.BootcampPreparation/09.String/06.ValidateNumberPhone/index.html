@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function checkPhoneNumber(number){
+            regexp = /^\([0-9]{2}\)+\-\([0]+[0-9]{9}\)$/;    
+            if (regexp.test(number)){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+       
+        
+        
+       var number = prompt("Nhập vào số điện thoại: ");
+        alert (checkPhoneNumber(number));
+    </script>
+</body>
+</html>

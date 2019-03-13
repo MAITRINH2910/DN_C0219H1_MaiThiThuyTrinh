@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+        </canvas>
+    <script>
+        /*
+        Viết một lớp các đối tượng hình chữ nhật lấy tên là Rectangle, mỗi hình chữ nhật đều có những đặc tính sau:
+        + Có thông số chiều dài (int).
+        + Có thông số chiều rộng (int).
+        + Có tính năng tính diện tích.
+        + Có tính năng tính chu vi.
+        + Có tính năng hiển thị trực quan hình chữ nhật bằng cách vẽ lên canvas
+        
+        Sử dụng lớp Rectangle vừa định nghĩa để viết một chương trình JavaScript  với kịch bản như sau:
+        Khai báo và khởi tạo một đối tượng kiểu Rectangle.
+        Hiển thị hình chữ nhật trên màn hình web
+        Thay đổi chiều dài và chiều rộng của hình chữ nhật.
+        In ra màn hình diện tích và chu vi của hình chữ nhật đó.
+        */
+
+        let Rectangle = function (heigth, width) {
+            this.heigth = heigth;
+            this.width = width;
+            this.getHeigth = function () {
+                return heigth;
+            }
+            this.getWidth = function () {
+                return width;
+            }
+            this.area = function () {
+                return this.heigth * this.width;
+            }
+            this.chuvi = function () {
+                return (this.heigth + this.width) * 2;
+            }
+            this.display = function () {
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(0, 0);
+                ctx.lineTo(200, 0);
+                ctx.lineTo(200,100);
+                ctx.lineTo(0,100);
+                ctx.lineTo(0,0);
+                ctx.stroke();
+            }
+
+        }
+        let rectangle = new Rectangle(10, 5);
+        rectangle.heigth = 10;
+        rectangle.width = 1;
+        let area = rectangle.area();
+        let chuvi = rectangle.chuvi();
+        document.write("<br>Diện tích hình chữ nhật là: " + area + "<br>Chu vi hình chữ nhật là: " + chuvi);
+        // let display = rectangle.display();
+        rectangle.display();
+
+    </script>
+
+</body>
+
+
+
+</html>

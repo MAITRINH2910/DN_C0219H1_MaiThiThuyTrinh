@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <body>
     <h2>
-        Số đầu tiên trong dãy fibonacci chia hết cho 5 là: 
+        Số đầu tiên trong dãy fibonacci chia hết cho 5 là:
     </h2>
     <script>
-    var a0=0; var a1=1; var a2;
-    for (var i=1; i<=10; i++)
-    {
-        a2=a1+a0;
-        a0=a1;
-        a1=a2;
-        if (a0%5==0)
-        {
-            document.write(a0);
-            break;
+        var a0 = 0; var a1 = 1; var a2;
+        for (var i = 1; i <= 10; i++) {
+            a2 = a1 + a0;
+            a0 = a1;
+            a1 = a2;
+            if (a0 % 5 == 0) {
+                document.write(a0);
+                break;
 
+            }
         }
-    }
     </script>
 </body>
+
 </html>

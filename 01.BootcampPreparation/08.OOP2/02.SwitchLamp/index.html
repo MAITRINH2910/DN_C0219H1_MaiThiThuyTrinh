@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <img id="lightOff" src="lightOff.jpg" width="250" height="350" />
+    <p>Status of lamp: <input id="turnOff" type="button" value="OFF" onclick="switchButton()"> </button> </p>
+
+    <p>Status of lamp: <input id="turnOn" type="button" value="ON" onclick="switchButton()"></button> </p>
+
+    <script>
+
+        var ElectricLamp = function () {
+            this.status = false;
+
+            this.turnOn = function () {
+                this.status = true;
+                alert("Light On");
+            }
+            this.turnOff = function () {
+                this.status = false;
+                alert("Light Off");
+            }
+        }
+
+        function SwitchButton() {
+
+            this.status = status;
+            this.lamp = lamp;
+
+            this.connectToLamp = function (lamp) {
+                this.lamp = lamp;
+            }
+            this.switchOn = function () {
+                this.status = true;
+                this.lamp.turnOn();
+
+            }
+            this.switchOff = function () {
+                this.status = false;
+                this.lamp.turnOff();
+            }
+        }
+
+
+        var lamp = new ElectricLamp();
+
+        var button = new SwitchButton();
+
+        button.switchOn();
+
+
+
+    </script>
+
+</body>
+
+</html>

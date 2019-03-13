@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Class Mobile</title>
+</head>
+
+<body>
+    <!--Có một chiếc điện thoại nokia và một chiếc iphone
+Chiếc điện thoại nokia soạn tin nhắn với nội dung bất kỳ và gửi cho chiếc iphone
+        Chiếc iphone kiểm tra inbox và hiển thị tin đó.-->
+    <!--Thiết kế 2 điện thoại bằng img và thêm các button-->
+    <script>
+        var Mobile = function (pin, status) {
+            this.pin = pin;
+            this.status = status;
+
+            this.checkStatus = function () {
+                this.status = true;
+                console.log("Mobile is acting!");
+            }
+
+            this.acticveMobile = function () {
+                if (this.status == false || this.pin <= 0) {
+                    console.log("Turn off mobile!");
+                }
+                else {
+                    console.log("Turn on mobile!");
+                }
+            }
+
+            // this.chargeBat = function () {
+            //     if (this.pin <= 0) {
+            //         this.pin += 1;
+            //     }
+            // }
+
+            this.writeMsg = function () {
+                console.log();
+            }
+
+            this.sendMsg = function () {
+                return this.writeMsg();
+            }
+
+            this.receiveMsg = function () {
+                return this.sendMsg();
+            }
+           
+            this.readIbxMsg = function () {
+                console.log(Mobile.receiveMsg());
+            }
+            this.readSendMsg = function () {
+                console.log(Mobile.sendMsg());
+            }
+        }
+
+        var Nokia = new Mobile(100, true);
+
+        var Iphone = new Mobile(90, true);
+
+        console.log("Pin ban đầu của Nokia: " + Nokia.pin());
+        console.log("Pin ban đầu của Iphone" + Iphone.pin());
+        Nokia.writeMsg("Hello iphone!");
+        Nokia.sendMsg();
+        Iphone.receiveMsg();
+        Iphone.readIbxMsg();
+    </script>
+</body>
+
+</html>

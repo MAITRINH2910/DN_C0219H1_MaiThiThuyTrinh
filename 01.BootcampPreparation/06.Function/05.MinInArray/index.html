@@ -1,0 +1,45 @@
+<script>
+    /*
+    Xây dựng hàm nhận vào một tham số là một mảng cho trước.
+    Hàm thực hiện tìm giá trị nhỏ nhất trong mảng và trả về giá trị đó.
+    Sử dụng hàm vừa xây dựng trên với mảng như sau:
+    arr1: [3, 5, 1, 8, -3, 7, 8]
+
+    arr2: [7, 12, 6, 9, 20, 56, 89]
+
+    arr3: []
+
+    arr4: [0, 0, 0, 0, 0, 0]
+    
+    var arr4 = [0, 0, 0, 0, 0, 0];
+    */
+    let arr1 = [3, 5, 1, 8, -3, 7, 8];
+    let min1 = timMin(arr1);
+    alert (min1);
+    let arr2 = [7, 12, 6, 9, 20, 56, 89];
+    let min2= timMin(arr2);
+    alert (min2);
+    let arr3 = [-1, 0, 0, 0, 0, 0, 0, 0];
+    let min3= timMin(arr3);
+    alert (min3);
+    let arr4 = [];
+    let min4= timMin(arr4);
+    alert (min4);
+    function timMin(arr)
+    {
+        if(arr.length == 0)
+        return null;
+
+        var Min=arr[0];
+        for (let i=0; i<arr1.length; i++)
+        {
+            if (arr[i]<Min)
+            {
+                Min=arr[i];
+            }
+        }
+        return Min;
+    }
+
+
+</script>

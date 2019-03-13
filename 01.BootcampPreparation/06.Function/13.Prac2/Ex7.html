@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    //Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.
+    
+    function swap(a,b){
+        var temp;
+        alert("Hai số a và b trước khi đổi chỗ: "+a+" - "+b);
+        temp =a;
+        a=b; 
+        b=temp;
+        alert("Hai số a và b sau khi đổi chỗ: "+a+" - "+b);
+    }
+    var a = prompt("Nhập a: ");
+    var b = prompt("Nhập b: ")
+    swap(a,b);
+    //alert("Hai số a và b sau khi đổi chỗ: "+a+" - "+b);
+    </script>
+</body>
+</html>

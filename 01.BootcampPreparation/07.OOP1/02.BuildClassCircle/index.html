@@ -1,0 +1,21 @@
+<script>
+    let Circle = function (radius) {
+        this.radius = radius;
+        //Bước 2: Xây dựng phương thức trả về bán kính của hình tròn
+        this.getRadius = function () {
+            return radius;
+        }
+        //Bước 3: Xây dựng phương thức tính diện tích hình tròn
+        this.getArea = function () {
+            return Math.PI * radius * radius;
+        }
+    };
+
+    let circle = new Circle(2);
+    let radius = circle.getRadius();
+    let area = circle.getArea();
+    alert("radius: " + radius + "; area: " + area);
+
+
+
+</script>
