@@ -31,11 +31,13 @@ public class Main {
 
         int size3= size1+size2;
         int arr3[] = new int [size3];
-        for (int i=0; i<size3; i++){
-            for (int j=0; j<size1; j++){
-                arr3[i]=arr1[j];
+        for (int i=0; i<size1; i++){
+            for (int j=0; j<size3; j++){
+                arr3[j]=arr1[j];
             }
-
+        }
+        for (int i=0; i<size3; i++){
+            System.out.println(arr3[i]);
         }
 
 
