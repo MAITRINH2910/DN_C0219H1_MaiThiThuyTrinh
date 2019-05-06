@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b3bca38-2bdd-41f8-bfb9-b28ffad55865" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/03.QLSP/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/03.QLSP/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/11.CaseStudy/BouncingGame/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03.ClassAndObject/01.BuildClassRectangle/src/Ex14_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03.ClassAndObject/01.BuildClassRectangle/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03.ClassAndObject/02.QuadraticEquation/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03.ClassAndObject/02.QuadraticEquation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03.ClassAndObject/03.ClassStopWatch/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03.ClassAndObject/03.ClassStopWatch/src/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03.ClassAndObject/04.ClassFan/src/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03.ClassAndObject/04.ClassFan/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/02.GroupOfGeometric/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/02.GroupOfGeometric/src/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/02.GroupOfGeometric/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/02.GroupOfGeometric/src/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/02.GroupOfGeometric/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/02.GroupOfGeometric/src/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/02.GroupOfGeometric/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/02.GroupOfGeometric/src/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/03.ClassCircleAndCylinder/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/03.ClassCircleAndCylinder/src/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/03.ClassCircleAndCylinder/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/03.ClassCircleAndCylinder/src/CylinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/04.ClassPointAndMoveablePoint/src/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/04.ClassPointAndMoveablePoint/src/MovablePointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/04.ClassPointAndMoveablePoint/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/04.ClassPointAndMoveablePoint/src/PointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/05.ClassTriangle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/05.ClassTriangle/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/05.ClassTriangle/src/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04.Extend/05.ClassTriangle/src/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/01.ClassAnimalAndInterfaceEdible/src/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/01.ClassAnimalAndInterfaceEdible/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/01.ClassAnimalAndInterfaceEdible/src/animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/01.ClassAnimalAndInterfaceEdible/src/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/01.ClassAnimalAndInterfaceEdible/src/edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/01.ClassAnimalAndInterfaceEdible/src/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/01.ClassAnimalAndInterfaceEdible/src/fruit/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/01.ClassAnimalAndInterfaceEdible/src/fruit/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/02.Comparator/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/02.Comparator/src/CircleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/02.Comparator/src/CircleComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/02.Comparator/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/03.Comparable/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/03.Comparable/src/ComparableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/03.Comparable/src/ComparableCircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/03.Comparable/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/04.Resizeable/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/04.Resizeable/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/04.Resizeable/src/ResizeableCircleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/04.Resizeable/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/04.Resizeable/src/resizeable/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/05.Colorable/src/ColorableSquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/05.Colorable/src/Shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/05.Colorable/src/Shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/05.Colorable/src/Shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/05.Colorable/src/Shape/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.AdvancedObjectOriented/05.Colorable/src/colorable/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01.ClassList/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01.ClassList/src/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.ClassLinkedList/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.ClassLinkedList/src/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03.ClassMyList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03.ClassMyList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03.ClassMyList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03.ClassMyList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03.ClassMyList/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03.ClassMyList/src/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04.MyArrayList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04.MyArrayList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04.MyArrayList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04.MyArrayList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04.MyArrayList/MyArrayList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04.MyArrayList/src/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04.MyArrayList/src/TestMyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05.MyLinkedList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05.MyLinkedList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05.MyLinkedList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05.MyLinkedList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05.MyLinkedList/MyLinkedList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05.MyLinkedList/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/List1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/07.OOP1/08.GameMoveCar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/07.OOP1/08.GameMoveCar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/02.FindMin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/02.FindMin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/04.CalDisPlay/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/04.CalDisPlay/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02.ArrayAndMethod/06.FindMaxValueIn2Array/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02.ArrayAndMethod/06.FindMaxValueIn2Array/src/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EmployeeList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/List1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/employee.java" />
+        <option value="$PROJECT_DIR$/src/List.java" />
+        <option value="$PROJECT_DIR$/src/ClassIterator.java" />
+        <option value="$PROJECT_DIR$/src/EmployeeList.java" />
+        <option value="$PROJECT_DIR$/src/List1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="776" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06.Example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06.Example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="List1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List1" />
+      <module name="Example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.List1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b3bca38-2bdd-41f8-bfb9-b28ffad55865" name="Default Changelist" comment="" />
+      <created>1556884775727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556884775727</updated>
+      <workItem from="1556884778771" duration="1123000" />
+      <workItem from="1556886345765" duration="2961000" />
+      <workItem from="1557025306255" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4090000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="776" height="735" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25977653" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/List.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClassIterator.java" />
+    <entry file="file://$PROJECT_DIR$/src/EmployeeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/List1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
