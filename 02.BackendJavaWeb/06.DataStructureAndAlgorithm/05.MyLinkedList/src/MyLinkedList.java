@@ -43,9 +43,14 @@ public class MyLinkedList {
     }
 
     public void addLast1(Object data){
-        Node tem = pTail;
+        Node l = pTail;
         Node temp = new Node(data);
-        tem.pNext = temp;
+        if (l == null){
+            pHead=temp;
+        } else {
+            l.pNext = temp;
+        }
+
         pTail = temp;
 
 //        pTail.pNext=temp;
@@ -151,9 +156,13 @@ public class MyLinkedList {
         MyLinkedList o =  new MyLinkedList(0);
         o.pHead=o.pTail=null;
         numNodes=0;
-        for (Node x=pHead; x!=null; x=x.pNext){
-            o.addFirst(x.data);
+
+
+        for (Node x = pHead;  x != null; x = x.pNext){
+           // o.addFirst(x.data);
+            o.addLast1(x.data);
         }
+
        return o;
     }
 

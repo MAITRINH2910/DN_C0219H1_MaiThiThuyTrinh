@@ -27,7 +27,7 @@ public class MyLinkedListTest {
 
         System.out.println("\nLay phan tu thu 2 trong danh sach: "+linkedList.get(2));
         System.out.println("\nLay phan tu dau tien trong danh sach: "+linkedList.getFirst());
-        System.out.println("\nLay phan tu dau tien trong danh sach: "+linkedList.getLast());
+        System.out.println("\nLay phan tu cuoi cung trong danh sach: "+linkedList.getLast());
 
 /*
         linkedList.clear();
@@ -35,7 +35,10 @@ public class MyLinkedListTest {
         linkedList.addFirst(10);
         linkedList.printList();
 */
+        System.out.println("\nDanh sach la: ");
+        linkedList.printList();
         MyLinkedList o = (MyLinkedList)linkedList.clone();
+        System.out.println("\nDanh sach sau khi clone la: ");
         o.printList();
     }
 }
