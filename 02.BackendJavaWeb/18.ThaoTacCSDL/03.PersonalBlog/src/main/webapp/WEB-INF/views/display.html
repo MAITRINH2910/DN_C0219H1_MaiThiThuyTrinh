@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>First Page</title>
+    <style type="text/css">
+        h1, p {
+            text-align: center;
+        }
+
+        .a {
+            text-align: right;
+        }
+
+        .blue-square-container {
+            text-align: center;
+        }
+
+        .blue-square {
+            background-color: #0074D9;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .yellow-square {
+            background-color: #FFDC00;
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="a"><a href="/create-customer">Create new essasy</a></div>
+
+
+<div class="notify">
+    <div th:if="${success}">
+        <h4><span th:text="${success}"></span></br></h4>
+    </div>
+</div>
+    <h1>Michael Trinh'blog</h1>
+
+    <p> "Sharing is not never enough"</p>
+    <table border="1"class="yellow-square" >
+
+        <tr>
+            <th>Name of Essay</th>
+            <th>Category</th>
+
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <th:block th:each="blog : ${blogs}">
+            <tr>
+                <td> <a href th:text="${blog.nameBlog}"></a></td>
+                <td th:text="${blog.category}"></td>
+
+                <td><a th:href="@{/edit-customer/__${blog.id}__ }">Edit</a></td>
+                <td><a th:href="@{/delete-customer/__${blog.id}__ }">Delete</a></td>
+            </tr>
+        </th:block>
+    </table>
+
+
+
+</body>
+</html>

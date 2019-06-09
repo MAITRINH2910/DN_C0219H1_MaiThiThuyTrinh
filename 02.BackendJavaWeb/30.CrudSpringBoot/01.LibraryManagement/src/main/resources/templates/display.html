@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Students</title>
+</head>
+<body>
+    <h1>Information of Students</h1>
+
+    <th:block th:if="${success}">
+        <hr>
+        <pre><h3 th:text="${success}"></h3></pre>
+        <hr>
+    </th:block>
+
+    <form th:action="search-student" method="post">
+        Find student by first name
+        <input type="text" name="search">
+        <input type="submit" value="Search">
+    </form>
+
+
+        <a href="/create-student">Create new student</a>
+
+    <table border="2">
+        <tr>
+            <td>Id</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Id Student</td>
+            <td>Email</td>
+            <td>Phone</td>
+            <td>City</td>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+        <tr th:each="student : ${students}">
+            <td th:text="${student.getId()}"></td>
+            <td th:text="${student.getFirstName()}"></td>
+            <td th:text="${student.getLastName()}"></td>
+            <td th:text="${student.getIdStudent()}"></td>
+            <td th:text="${student.getEmail()}"></td>
+            <td th:text="${student.getPhone()}"></td>
+            <td th:text="${student.getCity()}"></td>
+
+            <td><a th:href="@{/edit-student/__${student.id}__}">Edit</a></td>
+            <!-- Lưu ý trước "href" phải có "th". Nếu không sẽ chạy vào file error.html-->
+            <td><a th:href="@{/delete-student/__${student.id}__}">Delete</a></td>
+        </tr>
+    </table>
+</body>
+<footer>&copy; Mai Trinh</footer>
+</html>

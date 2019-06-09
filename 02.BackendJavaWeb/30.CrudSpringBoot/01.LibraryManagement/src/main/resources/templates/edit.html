@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Student</title>
+</head>
+<body>
+<h1>Edit Student</h1>
+<a href="http://localhost:8080/">Student list</a>
+
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+
+
+<form th:action="@{/edit-student}" action="#" th:object="${student}" method="post">
+
+    <input th:type="hidden" name="id" th:field="*{id}"> <!-- để lưu lại và không tự tạo ra đối tượng mới tăng theo id-->
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" th:field="*{firstName}"></td>
+            <td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">First Name Error</td>
+        </tr>
+        <tr>
+            <td>Last Name: </td>
+            <td><input type="text" th:field="*{lastName}"></td>
+            <td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">Last Name Error</td>
+        </tr>
+        <tr>
+            <td>Id Student: </td>
+            <td><input type="text" th:field="*{idStudent}"></td>
+            <td th:if="${#fields.hasErrors('idStudent')}" th:errors="*{idStudent}">idStudent Error</td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td><input type="text" th:field="*{email}"></td>
+            <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</td>
+        </tr>
+        <tr>
+            <td>Phone: </td>
+            <td><input type="text" th:field="*{phone}"></td>
+            <td th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}">Phone Error</td>
+        </tr>
+        <tr>
+            <td>City: </td>
+            <td><input type="text" th:field="*{city}"></td>
+            <td th:if="${#fields.hasErrors('city')}" th:errors="*{city}">City Error</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update"></td>
+        </tr>
+    </table>
+
+</form>
+
+</body>
+</html>

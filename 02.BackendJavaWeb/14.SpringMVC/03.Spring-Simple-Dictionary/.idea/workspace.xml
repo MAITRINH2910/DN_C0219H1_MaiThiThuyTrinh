@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Spring-Simple-Dictionary:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bdec9c73-2a0f-44bd-b13d-8d453be9c9e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/03.QLSP/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/03.QLSP/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/11.CaseStudy/BouncingGame/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/08.DemoMap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/08.DemoMap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/08.DemoMap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/08.DemoMap/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/09.TreeMap_Ex1/src/EVDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/09.TreeMap_Ex1/src/EngWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/09.TreeMap_Ex1/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07.CleanCodeAndRefactoring/01.Split/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07.CleanCodeAndRefactoring/01.Split/src/StudentConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07.CleanCodeAndRefactoring/01.Split/src/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/02.server_time/.idea/artifacts/server_time_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/02.server_time/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/02.server_time/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/02.server_time/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/02.server_time/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/02.server_time/src/TimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/02.server_time/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/03.1.java-simple-login-master/.idea/03.1.java-simple-login-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/03.Login/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/03.Login/src/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/04.simple_dictionary/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/04.simple_dictionary/src/SimpleDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/04.simple_dictionary/web/WEB-INF/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/04.simple_dictionary/web/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/05.simple_dictionary_servlet/.idea/artifacts/simple_dictionary_servlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/05.simple_dictionary_servlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/05.simple_dictionary_servlet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/05.simple_dictionary_servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/05.simple_dictionary_servlet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/05.simple_dictionary_servlet/src/DictionnaryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/05.simple_dictionary_servlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.1.Currency_Ánh/.idea/06.1.Currency_Ánh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.1.Currency_Ánh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.1.Currency_Ánh/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.1.Currency_Ánh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.1.Currency_Ánh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.Currency_Converter_JSP/.idea/artifacts/Currency_Converter_JSP_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.Currency_Converter_JSP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.Currency_Converter_JSP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.Currency_Converter_JSP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.Currency_Converter_JSP/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.Currency_Converter_JSP/Currency_Converter_JSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.Currency_Converter_JSP/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/06.Currency_Converter_JSP/web/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/07.Currency_Converter_Servlet/.idea/artifacts/Currency_Converter_Servlet_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/07.Currency_Converter_Servlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/07.Currency_Converter_Servlet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/07.Currency_Converter_Servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/07.Currency_Converter_Servlet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/07.Currency_Converter_Servlet/Currency_Converter_Servlet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/07.Currency_Converter_Servlet/src/ExchangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/07.Currency_Converter_Servlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/08.Product_Discount_Calculator/.idea/artifacts/Product_Discount_Calculator_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/08.Product_Discount_Calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/08.Product_Discount_Calculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/08.Product_Discount_Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/08.Product_Discount_Calculator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/08.Product_Discount_Calculator/Product_Discount_Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/08.Product_Discount_Calculator/src/ProductDiscountCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/08.Product_Discount_Calculator/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/09.SimpleCalculator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/09.SimpleCalculator/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/09.SimpleCalculator/src/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Time_System/10.DisplayCustomers/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/src/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/src/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/src/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/web/WEB-INF/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/web/WEB-INF/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/web/WEB-INF/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/web/WEB-INF/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/web/WEB-INF/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/web/WEB-INF/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer/web/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01.Spring-Greeting/src/controllers/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01.Spring-Greeting/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01.Spring-Greeting/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01.Spring-Greeting/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/.idea/artifacts/Spring_Currency_Exchange_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/src/controllers/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/src/controllers/ExchangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/src/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/web/WEB-INF/view/exchangeMoney.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02.Spring-Currency-Exchange/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_Simple_Dictionary_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Simple-Dictionary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/formDictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/translateWord.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/.idea/artifacts/Login_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/Login.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/src/com/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/src/com/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/src/com/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/src/com/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/web/WEB-INF/view/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/web/WEB-INF/view/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/web/WEB-INF/view/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/01.Login/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/02.mavenTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/02.mavenTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/03.Maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/src/main/java/vn/codegym/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/src/webapp/WEB-INF.config/config/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/src/webapp/WEB-INF.config/view/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/03.Maven/src/webapp/WEB-INF.config/view/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/04.TimeCity/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/04.TimeCity/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/04.TimeCity/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/04.TimeCity/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/04.TimeCity/04.TimeCity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/04.TimeCity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/04.TimeCity/src/main/java/controller/TimeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/04.TimeCity/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/04.TimeCity/src/main/webapp/WEB-INF/view/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/05.SandwichClick/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/05.SandwichClick/src/controller/SandwichController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/05.SandwichClick/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/05.SandwichClick/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/05.SandwichClick/web/WEB-INF/view/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/05.SandwichClick/web/WEB-INF/view/sandwich.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/05.SandwichClick/web/WEB-INF/view/showCondiment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/.idea/artifacts/Calculator_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/src/com/controller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/web/WEB-INF/views/frameCalculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/web/WEB-INF/views/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../15.SpringController/06.Calculator/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/02.DataStructure/ExchangeMoney/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/02.DataStructure/ExchangeMoney/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/07.OOP1/08.GameMoveCar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/07.OOP1/08.GameMoveCar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/02.FindMin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/02.FindMin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/04.CalDisPlay/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/04.CalDisPlay/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/03.ClassMyList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/03.ClassMyList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/05.MyLinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/05.MyLinkedList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/08.DemoMap/src/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06.DataStructureAndAlgorithm/08.DemoMap/src/MapDemo.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controller/DictionaryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/error.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/translateWord.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/formDictionary.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/formDictionary.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/controller/DictionaryController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/error.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/translateWord.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="509" />
+    <option name="width" value="864" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spring-Simple-Dictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03.Spring-Simple-Dictionary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Simple-Dictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03.Spring-Simple-Dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Simple-Dictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03.Spring-Simple-Dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Simple-Dictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03.Spring-Simple-Dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Simple-Dictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03.Spring-Simple-Dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring-Simple-Dictionary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03.Spring-Simple-Dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../13.MVC_Model/01.ManagementCustomer" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Spring-Simple-Dictionary:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Spring-Simple-Dictionary" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Spring-Simple-Dictionary:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdec9c73-2a0f-44bd-b13d-8d453be9c9e9" name="Default Changelist" comment="" />
+      <created>1559208388129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559208388129</updated>
+      <workItem from="1559208409935" duration="5118000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5118000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="509" y="0" width="864" height="735" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32890365" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/formDictionary.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/translateWord.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/DictionaryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Spring-Simple-Dictionary:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

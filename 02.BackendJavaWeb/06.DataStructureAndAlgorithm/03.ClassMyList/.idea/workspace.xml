@@ -10,9 +10,7 @@
       <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/04.CalDisPlay/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/04.CalDisPlay/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05.MyLinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05.MyLinkedList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.MyLinkedList/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.MyLinkedList/src/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.MyLinkedList/src/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05.MyLinkedList/src/MyLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08.DemoMap/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../08.DemoMap/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08.DemoMap/src/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../08.DemoMap/src/MapDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -8,11 +8,7 @@
       <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/07.OOP1/08.GameMoveCar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/07.OOP1/08.GameMoveCar/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/02.FindMin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/02.FindMin/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/04.CalDisPlay/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01.BootcampPreparation/10.Algorithm/04.CalDisPlay/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03.ClassMyList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03.ClassMyList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08.DemoMap/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../08.DemoMap/src/Employee.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
+            <state relative-caret-position="1152">
+              <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
               <folding>
                 <element signature="e#318#319#0" expanded="true" />
                 <element signature="e#358#359#0" expanded="true" />
@@ -151,7 +147,7 @@
       <updated>1556883518158</updated>
       <workItem from="1556883521342" duration="3460000" />
       <workItem from="1557025309107" duration="7646000" />
-      <workItem from="1557143612310" duration="10153000" />
+      <workItem from="1557143612310" duration="10407000" />
     </task>
     <task id="LOCAL-00001" summary="update longtime">
       <created>1557149863956</created>
@@ -181,11 +177,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557150451276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update longtime">
+      <created>1557157939623</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557157939623</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21259000" />
+    <option name="totallyTimeSpent" value="21513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -200,7 +203,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -288,8 +291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
+        <state relative-caret-position="1152">
+          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
           <folding>
             <element signature="e#318#319#0" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />

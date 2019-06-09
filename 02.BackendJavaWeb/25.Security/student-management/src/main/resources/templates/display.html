@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Students</title>
+</head>
+<body>
+<h1>Students List</h1>
+<form th:action="search-student" method="post">
+    Search by first name:
+    <input type="text" name="search">
+    <input type="submit" value="Search">
+</form>
+<table border="1">
+    <tr>
+        <td>Id</td>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Id Student</td>
+        <td>Email</td>
+        <td>Phone</td>
+        <td>City</td>
+        <td>District</td>
+        <td>Edit</td>
+        <td>Delete</td>
+    </tr>
+    <tbody>
+    <tr th:each="student : ${students}">
+        <td th:text="${student.getId()}"></td>
+        <td th:text="${student.getFirstName()}"></td>
+        <td th:text="${student.getLastName()}"></td>
+        <td th:text="${student.getIdStudent()}"></td>
+        <td th:text="${student.getEmail()}"></td>
+        <td th:text="${student.getPhone()}"></td>
+        <td th:text="${student.getCity()}"></td>
+        <td th:text="${student. getDistrict()}"></td>
+        <td><a href="@{/edit-student/__${student.id_Stu}__}">Edit</a></td>
+        <td><a href="@{/delete-student/__${student.id_Stu}">Delete</a></td>
+    </tr>
+    </tbody>
+
+
+</table>
+</body>
+</html>

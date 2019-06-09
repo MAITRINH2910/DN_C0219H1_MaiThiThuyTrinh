@@ -17,6 +17,6 @@ public class MapDemo {
     }
 
     private static Employee createEmployee(int id, String name){
-       // return new Employee(UUID.randomUUID().toString(), id, name);
+       return new Employee(UUID.randomUUID().toString(), id, name); // lỗi
     }
 }
