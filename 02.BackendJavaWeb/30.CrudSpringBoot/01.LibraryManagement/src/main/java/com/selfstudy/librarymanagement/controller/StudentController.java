@@ -1,8 +1,12 @@
 package com.selfstudy.librarymanagement.controller;
 
+import com.selfstudy.librarymanagement.entity.Province;
 import com.selfstudy.librarymanagement.entity.Student;
+import com.selfstudy.librarymanagement.service.ProvinceService;
 import com.selfstudy.librarymanagement.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -20,12 +24,21 @@ public class StudentController {
     @Autowired
     StudentService studentService;
 
+    @Autowired
+    private ProvinceService provinceService;
+
+    @ModelAttribute("provinces")
+    public Iterable<Province> provinces(){
+        return provinceService.findAllProvinces();
+    }
+
+    /*
     @GetMapping("/")
     public String DisplayStudent(Model model) {
         List<Student> studentList = studentService.findAllStudents();
         model.addAttribute("students", studentList);
         return "display";
-    }
+    }*/
 
     @GetMapping("/create-student")
     public String createNewStudent(Model model){
@@ -43,7 +56,7 @@ public class StudentController {
             return "redirect:/";
         }
     }
-
+    /*
     @PostMapping("/search-student")
     public String FindStudentByFirstName(@RequestParam("search") String seachFirstName, Model model) {
         List<Student> studentName = studentService.findStudent(seachFirstName);
@@ -53,6 +66,18 @@ public class StudentController {
             model.addAttribute("students", studentName);
             return "search";
        }
+    }*/
+    @GetMapping("/")
+    public ModelAndView listCustomers(@RequestParam("search") Optional<String> s, Pageable pageable){
+        Page<Student> students;
+        if(s.isPresent()){
+            students = studentService.findAllByFirstNameContaining(s.get(), pageable);
+        } else {
+            students = studentService.findAllStudents(pageable);
+        }
+        ModelAndView modelAndView = new ModelAndView("/display");
+        modelAndView.addObject("students", students);
+        return modelAndView;
     }
 
     //    @GetMapping("/edit-student/{idStudent}")

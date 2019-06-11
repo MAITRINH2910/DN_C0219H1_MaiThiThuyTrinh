@@ -18,16 +18,16 @@ public class StudentController {
     private StudentService studentService;
 
     @GetMapping("/")
-    public String DisplayStudents(Model model){
+    public String DisplayStudents(Model model) {
 
         model.addAttribute("students", studentService.getAllUser());
         return "display";
     }
 
     @PostMapping("/search-student")
-    public String SearchStudent(@RequestParam("search") String search, Model model){
+    public String SearchStudent(@RequestParam("search") String search, Model model) {
         List<Student> students = studentService.findByName(search);
-        model.addAttribute("students",students);
+        model.addAttribute("students", students);
         return "display";
     }
 }

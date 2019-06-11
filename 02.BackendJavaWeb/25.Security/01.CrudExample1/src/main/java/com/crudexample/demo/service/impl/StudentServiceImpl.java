@@ -15,11 +15,11 @@ public class StudentServiceImpl implements StudentService {
     @Autowired
     StudentRepository studentRepository;
 
-    public List<Student> getAllUser(){
+    public List<Student> getAllUser() {
         return studentRepository.findAll();
     }
 
-    public List<Student> findByName(String firstName){
+    public List<Student> findByName(String firstName) {
         return studentRepository.findByFirstName(firstName);
     }
 }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Employees</title>
+</head>
+<body>
+<th:block th:if="${success}">
+    <hr>
+    <pre><h3 th:text="${success}"></h3></pre>
+    <hr>
+</th:block>
+
+<form th:action="search-employee" method="post">
+    <input type="text" name="search">
+    <input type="submit" value="Tìm kiếm">
+</form>
+
+<div>
+    <button><a href="/create-employee" >Thêm mới</a></button>
+</div>
+
+<h1>Danh sách nhân viên</h1>
+<table border="2">
+    <tr>
+        <td><b>Số thứ tự</b></td>
+        <td><b>Nhóm nhân viên</b></td>
+        <td><b>Họ tên</b></td>
+        <td><b>Giới tính</b></td>
+        <td><b>Số điện thoại</b></td>
+        <td><b>Chức năng</b></td>
+    </tr>
+    <tr th:each="employee : ${employees}">
+        <td th:text="${employee.getId()}"></td>
+        <td th:text="${employee.getPosition()}"></td>
+        <td th:text="${employee.getFullName()}"></td>
+        <td th:text="${employee.getGender()}"></td>
+        <td th:text="${employee.getPhone()}"></td>
+        <td><a th:href="@{/edit-employee/__${employee.id}__}">Edit</a>   <a th:href="@{/delete-employee/__${employee.id}__}">Delete</a></td>
+    </tr>
+</table>
+</body>
+
+</html>

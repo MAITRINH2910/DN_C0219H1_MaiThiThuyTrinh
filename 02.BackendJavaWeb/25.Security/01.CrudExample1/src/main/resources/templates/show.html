@@ -5,35 +5,35 @@
     <title>List Students</title>
 </head>
 <body>
-    <form th:action="/search-student" method="post">
-        Search by first name:
-        <input type="text" name="search">
-        <input type="submit" value="Search">
-    </form>
-    <table border="1">
-        <tr>
-            <td>Name</td>
-            <td>First Name</td>
-            <td>First Name</td>
-            <td>Email</td>
-            <td>Phone</td>
-            <td>City</td>
-            <td>District</td>
-        </tr>
-        <tbody>
-        <tr th:each="student : ${students}">
-            <td th:text="${student.firstName}"></td>
-            <td th:text="${student.getLastName()}"></td>
-            <td th:text="${student.getEmail()}"></td>
-            <td th:text="${student.getPhone()}"></td>
-            <td th:text="${student.getCity()}"></td>
-            <td th:text="${student. getDistrict()}"></td>
-            <td><a href="@{/edit-student/__${student.idStu}__}">Edit</a></td>
-            <td><a href="@{/delete-student/__${student.idStu}">Delete</a></td>
-        </tr>
-        </tbody>
+<form th:action="/search-student" method="post">
+    Search by first name:
+    <input type="text" name="search">
+    <input type="submit" value="Search">
+</form>
+<table border="1">
+    <tr>
+        <td>Name</td>
+        <td>First Name</td>
+        <td>First Name</td>
+        <td>Email</td>
+        <td>Phone</td>
+        <td>City</td>
+        <td>District</td>
+    </tr>
+    <tbody>
+    <tr th:each="student : ${students}">
+        <td th:text="${student.firstName}"></td>
+        <td th:text="${student.getLastName()}"></td>
+        <td th:text="${student.getEmail()}"></td>
+        <td th:text="${student.getPhone()}"></td>
+        <td th:text="${student.getCity()}"></td>
+        <td th:text="${student. getDistrict()}"></td>
+        <td><a href="@{/edit-student/__${student.idStu}__}">Edit</a></td>
+        <td><a href="@{/delete-student/__${student.idStu}">Delete</a></td>
+    </tr>
+    </tbody>
 
 
-    </table>
+</table>
 </body>
 </html>

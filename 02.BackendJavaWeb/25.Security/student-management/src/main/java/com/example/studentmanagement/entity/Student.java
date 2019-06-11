@@ -9,7 +9,7 @@ import javax.validation.constraints.Size;
 
 
 @Entity
-@Table(name="student")
+@Table(name = "student")
 public class Student {
 
     @Id
@@ -27,18 +27,18 @@ public class Student {
     private int idStudent;
 
 
-    @Size(min =2, max=30)
+    @Size(min = 2, max = 30)
     private String firstName;
 
 
-    @Size(min=2, max=30)
+    @Size(min = 2, max = 30)
     private String lastName;
 
     @Email
     @NotEmpty
     private String email;
 
-    @Pattern(message="Phone number should begin 0 and must have 10 characters",regexp="(^\\+?[0]\\)?([0-9]{9}$))")
+    @Pattern(message = "Phone number should begin 0 and must have 10 characters", regexp = "(^\\+?[0]\\)?([0-9]{9}$))")
     private String phone;
 
     @NotEmpty
@@ -102,7 +102,6 @@ public class Student {
     public void setDistrict(String district) {
         this.district = district;
     }
-
 
 
 }

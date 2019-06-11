@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Students</title>
+</head>
+<body>
+<h1>Find student by first name</h1>
+
+<table border="2">
+    <tr>
+        <td>Số thứ tự</td>
+        <td>Nhóm nhân viên</td>
+        <td>Họ tên</td>
+        <td>Giới tính</td>
+        <td>Số điện thoại</td>
+    </tr>
+    <tr th:each="employee : ${employees}">
+        <td th:text="${employee.getId()}"></td>
+        <td th:text="${employee.getPosition()}"></td>
+        <td th:text="${employee.getFullName()}"></td>
+        <td th:text="${employee.getGender()}"></td>
+        <td th:text="${employee.getPhone()}"></td>
+</table>
+</body>
+</html>
